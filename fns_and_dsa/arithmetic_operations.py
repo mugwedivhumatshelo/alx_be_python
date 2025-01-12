@@ -8,7 +8,7 @@ def perform_operation(num1: float, num2: float, operation: str) -> float:
     operation (str): The arithmetic operation to perform. Can be 'add', 'subtract', 'multiply', or 'divide'.
 
     Returns:
-    float: The result of the arithmetic operation, or an error message if division by zero occurs.
+    float: The result of the arithmetic operation.
     """
 
     if operation == 'add':
